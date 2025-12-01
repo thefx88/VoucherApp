@@ -17,3 +17,7 @@ Applicazione Android frontend per VoucherVault, ispirata al design di Klarna. L'
 1. Importa il progetto in Android Studio.
 2. Se necessario genera i file del wrapper Gradle eseguendo `gradle wrapper --gradle-version 8.6` (o assicurati di avere `gradle/wrapper/gradle-wrapper.jar`).
 3. Avvia l'app su un dispositivo o emulatore con Android 8.0+.
+
+## Creazione APK
+- Una volta presente `gradle/wrapper/gradle-wrapper.jar`, esegui `./gradlew assembleDebug` per generare l'APK di debug in `app/build/outputs/apk/debug/app-debug.apk`.
+- In ambienti offline/bloccati (come questo workspace) il download di `gradle-wrapper.jar` dalla CDN Gradle può fallire; in tal caso occorre recuperare manualmente il file da una macchina connessa e copiarlo in `gradle/wrapper/` prima di eseguire il comando di build.
