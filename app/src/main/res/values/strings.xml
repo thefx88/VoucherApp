@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VoucherVault</string>
+    <string name="view_mode_list">Elenco</string>
+    <string name="view_mode_grid">Griglia</string>
+    <string name="add_card">Aggiungi carta</string>
+    <string name="scan_barcode">Scansiona barcode</string>
+    <string name="manual_entry">Inserisci manualmente</string>
+    <string name="store_name">Nome negozio</string>
+    <string name="card_number">Numero carta</string>
+    <string name="barcode_format">Formato barcode</string>
+    <string name="save">Salva</string>
+    <string name="cancel">Annulla</string>
+    <string name="cards_title">Carte fedelt\u00e0</string>
+    <string name="empty_state">Nessuna carta salvata. Aggiungine una dal pulsante in basso.</string>
+</resources>
